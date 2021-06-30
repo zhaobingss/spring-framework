@@ -1,0 +1,26 @@
+{
+  "name": "spring-framework",
+  "version": "1.0.0",
+  "description": "用来规范化git提交",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhaobingss/spring-framework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
